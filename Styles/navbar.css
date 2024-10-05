@@ -1,0 +1,33 @@
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #ffdfc1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100 hbnm ;
+    padding: 10px 0px;
+  }
+  
+  ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  ul li a:hover {
+    color: #003670ab;
+  }
