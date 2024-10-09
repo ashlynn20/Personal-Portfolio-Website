@@ -6,7 +6,8 @@ ul {
   }
   
   nav {
-    background-color: #ffdfc1;
+    font-family: Merriweather, Arial;
+    background-color: #F0BE6F;
     position: fixed;
     top: 0;
     left: 0;
@@ -23,11 +24,11 @@ ul {
   
   ul li a {
     text-decoration: none;
-    color: #333;
+    color: #1B4543;
     font-size: 18px;
     font-weight: bold;
   }
   
   ul li a:hover {
-    color: #003670ab;
+    color: #B3D0C6;
   }
