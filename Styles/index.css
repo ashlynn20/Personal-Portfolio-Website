@@ -1,3 +1,38 @@
 body {
   background-color: #1B4543;
+  margin-right: 18px;
+  font-family: Merriweather, Arial;
+  color: #B3D0C6;
+}
+
+p {
+  letter-spacing: 1.5px;
+  line-height: 30px;
+}
+
+.container {
+  display: flex;
+}
+
+.main-photo {
+  margin-top: 90px;
+  margin-left: 40px;
+  width: 50%;
+  object-fit: cover;
+  display: block;
+  border: 5px solid #0c1f1e;
+  border-radius: 30%;
+  transform: rotate(-3deg);
+}
+
+.subheading {
+  padding-bottom: 12px;
+  font-size: 3rem;
+  margin-bottom: 8px;
+  text-decoration: underline #B3D0C6 4px;
+  text-underline-offset: 12px;
+}
+
+.bio{
+  margin: 125px 75px 0px 80px;
 }
